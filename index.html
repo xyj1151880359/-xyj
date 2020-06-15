@@ -48,9 +48,22 @@
     git log 查看提交日志
 
     版本穿梭：
+    git log
+    git reset --hart commit_id 回到过去
+    git reflog 历史提交记录
+    git reset --hard commit_id 回到现在
 
 
+    撤销到最近的 commit  从暂存区退回到 退回到工作区
+    git reset HEAD index.html  进入到当前版本；但不是最后一次commit的代码；撤销add
+    git checkout index.html   撤销 最后一次commit提交后 编写的所有代码
 
+
+    注意：
+    1：当前版本是什么
+    2：编写代码没有add
+    3：add后如何撤销；注意 撤销后 是编码后；还是add 在最后一次提交；没有编码
+    
     
     
         
