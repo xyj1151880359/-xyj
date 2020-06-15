@@ -59,6 +59,13 @@
     git checkout index.html   撤销 最后一次commit提交后 编写的所有代码
 
 
+    撤销场景
+    1：撤销你编写的代码  工作区 ctrl + z 或者 git checkout 文件名
+    2：撤销 git add， 不想把这个代码提交到仓库中 所以需要撤回
+       2.5 回退到当前版本的【工作区】 git reset HEAD 可以给文件名/*
+       2.9 如果想重新写代码 git checkout 文件名 ====ctrl + z
+
+
     注意：
     1：当前版本是什么
     2：编写代码没有add
